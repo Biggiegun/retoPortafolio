@@ -1,0 +1,96 @@
+
+#arrow{
+    width: 10%;
+    height: 10%; 
+    border-radius: 1em;
+}
+    #personalPhoto{
+    width: 25%;
+    height: 25%;
+    border-radius: 1em;
+}
+.logos{
+    border-radius: 1.5em;
+    width: 15%;
+    height: 15%;
+}
+form{
+    text-align: center;
+    margin-bottom: 1em;
+}
+#fotosTestimonio{
+    border-radius: 2em;
+    width: 15%;
+    height: 15%;
+}
+#contenedorProyecto{
+background-color: #0F0E17;
+box-shadow: 10px 10px 10px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin: 1em;
+padding: 1em;
+z-index: 2;
+position: relative
+}
+#textoProyecto{
+color: #A7A9BE;
+}
+#tituloProyecto{
+color: #FFFFFE;
+}
+#boton1{
+    background-color: #0F0E17;
+    border: 2px solid #FF8906;
+    color: #FF8906;
+    padding: 2em 30%;
+    margin: 1em;
+}
+#boton2{
+    background-color: #FF8906;
+    border: 2px solid #FF8906;
+    color:#FFFFFE;
+    margin: 1em;
+    padding: 2em 15%;
+}
+#contenedorServicios{
+    background: linear-gradient(#FEB692, #EA5455);
+    padding: 2em 1em;
+}
+#botonServicios{
+background-color: #0F0E17;
+color: #FF8906;
+border: 1px solid #0F0E17;
+padding: 1em;
+width: 100%;
+}
+#contenedorTestimonios{
+    color: #FFFFFE;
+    background-color: #0F0E17;
+    padding: 2em;
+}
+#nombreTestimonio{
+    color: #F25F4C;
+}
+#contenedorContacto{
+    background: linear-gradient(#FEB692, #EA5455);
+    padding: 3em;
+    margin: 2em;
+}
+footer{
+    background-color:#0F0E17;
+    color: #FFFFFE;
+    padding: 2em;
+    text-align: center;
+}
+input{
+    cursor: pointer;
+}
+#imagenProyecto{
+    width: 100vw;
+    height: 50%;
+    z-index: 1;
+    position: absolute;
+}
